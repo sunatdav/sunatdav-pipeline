@@ -6,7 +6,7 @@ on:
 jobs:
   set-configuration:
     name: set appservice configuration
-    runs-on: [ self-hosted, sunatdav-sbx, vm-sunatdavSelfHost-az-usw3-sbx-001 ]
+    runs-on: [ self-hosted, sunatda-sbx, vm-sunatdavSelfHost-az-usw3-sbx-001 ]
     environment: sit
 
     steps:
