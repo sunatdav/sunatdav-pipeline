@@ -53,7 +53,7 @@ jobs:
 
   deploy-app-service:
     name: Deploy
-    runs-on: [ self-hosted, <user>-sbx, vm-sunatdavSelfHost-az-usw3-sbx-001 ]
+    runs-on: [ self-hosted, sunatda-sbx, vm-sunatdavSelfHost-az-usw3-sbx-001 ]
     needs: [build-app-service]
     environment:
       name: dev
