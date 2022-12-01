@@ -6,7 +6,7 @@ on:
 jobs:
   set-configuration:
     name: set appservice configuration
-    runs-on: [ self-hosted, <username>-sbx, vm-<username>SelfHost-az-usw3-sbx-001 ]
+    runs-on: [ self-hosted, sunatda-sbx, vm-sunatdavSelfHost-az-usw3-sbx-001 ]
     environment: dev
 
     steps:
@@ -18,7 +18,7 @@ jobs:
     - name: Set Web App Settings
       uses: Azure/appservice-settings@v1
       with:
-        app-name: app-<username>-az-usw3-dev-001
+        app-name: app-sunatdav-az-usw3-dev-001
         app-settings-json: |
           [
             {
