@@ -2,7 +2,7 @@ name: DEV - Tutorial BE Deploy
 
 on:
   repository_dispatch:
-    types: [sunatdav-tutorial-be-cd-dev]
+    types: [sunatdav-tutorial-backend-cd-dev]
   workflow_dispatch:
     inputs:
       ref:
